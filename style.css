@@ -195,8 +195,8 @@ section {
 }
 
 .skill-image {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto 1rem;
     border-radius: 10px;
     overflow: hidden;
@@ -265,6 +265,28 @@ section {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.9rem;
+}
+
+.project-btn{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.project-btn a{
+    width: 100%;
+    text-decoration: none;
+   
+}
+.project-btn button{
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: var(--card-bg);
+    transition: 1.2s;
+}
+.project-btn button:hover{
+    transform: scale(0.9);
 }
 
 .contact {
